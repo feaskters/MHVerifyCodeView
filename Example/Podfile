@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MHVerifyCodeView_Example' do
+  pod 'MHVerifyCodeView', :path => '../'
+
+  target 'MHVerifyCodeView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

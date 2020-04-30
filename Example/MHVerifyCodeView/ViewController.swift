@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let count = 6
+        let count = 4
         let spacing: CGFloat = 10
         let height: CGFloat = 50
         let width: CGFloat = height * CGFloat(count) + spacing * CGFloat(count - 1)

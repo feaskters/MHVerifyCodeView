@@ -1,0 +1,6 @@
+framework module Pods_MHVerifyCodeView_Example {
+  umbrella header "Pods-MHVerifyCodeView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - MHVerifyCodeView (1.0.0)
+
+DEPENDENCIES:
+  - MHVerifyCodeView (from `../`)
+
+EXTERNAL SOURCES:
+  MHVerifyCodeView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MHVerifyCodeView: 439bfb48f73963e3bee494a03e1d0b503859b6ce
+
+PODFILE CHECKSUM: c1768632ac51334d2f1040deb96b5fb03bfb65f3
+
+COCOAPODS: 1.9.1

@@ -9,7 +9,12 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+![VerifyCodeView](https://s1.ax1x.com/2020/04/30/JqcKXj.gif)
+
 ## Requirements
+
+ - iOS >= 9.0
+ - swift5
 
 ## Installation
 
@@ -18,6 +23,17 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'MHVerifyCodeView'
+```
+
+## Usage
+
+```swift
+let verifyCodeView = MHVerifyCodeView.init()
+verifyCodeView.spacing = 10
+verifyCodeView.verifyCount = 4
+verifyCodeView.setCompleteHandler { (result) in
+      print(result)
+}
 ```
 
 ## Author

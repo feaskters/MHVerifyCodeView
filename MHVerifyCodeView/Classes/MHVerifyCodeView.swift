@@ -9,6 +9,7 @@ class VerifyCodeSingleView: UILabel{
         self.layer.borderWidth = 0.5
         self.textAlignment = .center
         self.font = UIFont.systemFont(ofSize: 16)
+        self.textColor = .black
     }
     
     required init?(coder: NSCoder) {
